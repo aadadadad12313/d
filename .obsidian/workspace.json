@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Başlıksız.md",
+                "file": "Başlıksız/Başlıksız 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Başlıksız"
+              "title": "Başlıksız 1"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Başlıksız.md",
+                "file": "Başlıksız/Başlıksız 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Başlıksız için geri bağlantılar"
+              "title": "Başlıksız 1 için geri bağlantılar"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Başlıksız.md",
+                "file": "Başlıksız/Başlıksız 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Başlıksız'dan giden bağlantılar"
+              "title": "Başlıksız 1'dan giden bağlantılar"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Başlıksız.md",
+                "file": "Başlıksız/Başlıksız 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Başlıksız ana hatları"
+              "title": "Başlıksız 1 ana hatları"
             }
           }
         ]
@@ -166,12 +166,15 @@
       "daily-notes:Bugünün Notunu Aç": false,
       "templates:Şablon ekle": false,
       "command-palette:Komut paletini aç": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb49a2ae50875212",
+  "active": "d8b9027570917100",
   "lastOpenFiles": [
-    "Başlıksız",
-    "Başlıksız.md"
+    "Başlıksız/Başlıksız.md",
+    "Başlıksız/Başlıksız 1.md",
+    "Başlıksız.md",
+    "Başlıksız"
   ]
 }
