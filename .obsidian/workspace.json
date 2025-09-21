@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Başlıksız 2.md",
+                "file": "Başlıksız 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Başlıksız 2"
+              "title": "Başlıksız 3"
             }
           },
           {
@@ -278,8 +278,9 @@
   },
   "active": "97f80aca1143eb26",
   "lastOpenFiles": [
-    "Başlıksız 1.md",
     "Başlıksız 2.md",
+    "Başlıksız 3.md",
+    "Başlıksız 1.md",
     "Başlıksız.md",
     "a.md",
     "Başlıksız 2",
@@ -313,7 +314,6 @@
     "Projeler/Backend/DepencenyProjesi/desktop.ini",
     "Projeler/Backend/desktop.ini",
     "backend/Oop/Generic Tipler.md",
-    "backend/Git/Git ve Github Geri Alma işlemleri.md",
     "Template/assets/Pasted image 20250912195728.png",
     "Template/assets/Pasted image 20250912160015.png",
     "Template/assets/Pasted image 20250906172747.png",
