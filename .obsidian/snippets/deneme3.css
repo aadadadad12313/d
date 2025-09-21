@@ -1,0 +1,202 @@
+/******************************************************
+ *        Obsidian Database Folder — Compact Style
+ *        Görsel eşlemeli, satır aralığı dar, koyu tema
+ ******************************************************/
+
+/* === RENK VE STİL DEĞİŞKENLERİ === */
+:root {
+  --db-bg-primary: #2f3136;
+  --db-bg-secondary: #36393f;
+  --db-bg-tertiary: #40444b;
+  --db-bg-hover: #42464d;
+  --db-accent: #5865f2;
+  --db-accent-hover: #4752c4;
+  --db-accent-dark: #3c45a5;
+  --db-text-primary: #dcddde;
+  --db-text-secondary: #b9bbbe;
+  --db-text-muted: #72767d;
+  --db-text-on-accent: #ffffff;
+  --db-border: #40444b;
+  --db-border-light: #4f545c;
+  --db-shadow: rgba(0, 0, 0, 0.3);
+  --db-shadow-hover: rgba(0, 0, 0, 0.4);
+  --db-success: #00d4aa;
+  --db-success-border: #00b894;
+  --db-error: #ed4245;
+  --db-warning: #faa61a;
+  --db-radius: 6px;
+  --db-radius-small: 4px;
+  --db-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* === TABLO GENEL YAPI === */
+.database-plugin__container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--db-bg-primary);
+  border-radius: var(--db-radius);
+  padding: 8px;
+  box-shadow: 0 4px 12px var(--db-shadow);
+}
+
+.database-plugin__scroll-container {
+  width: 100%;
+  height: 98%;
+  scroll-margin-bottom: 1rem;
+}
+
+.database-plugin__scroll-horizontal {
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.database-plugin__table {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: var(--db-bg-primary);
+  border: 1px solid var(--db-border);
+  border-radius: var(--db-radius);
+  box-shadow: 0 2px 8px var(--db-shadow);
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* === BAŞLIK (HEADER) === */
+.database-plugin__thead {
+  display: table-header-group;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.database-plugin__th {
+  background: linear-gradient(135deg, var(--db-accent), var(--db-accent-hover));
+  color: var(--db-text-on-accent);
+  font-weight: 600;
+  padding: 2px 6px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--db-border);
+  border-right: 1px solid var(--db-border-light);
+}
+
+.database-plugin__th:hover {
+  background: linear-gradient(135deg, var(--db-accent-hover), var(--db-accent-dark));
+}
+
+.database-plugin__th::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--db-text-on-accent);
+  opacity: 0.3;
+}
+
+/* === HÜCRELER (CELLS) === */
+.database-plugin__td {
+  padding: 2px 6px;
+  font-size: 13px;
+  color: var(--db-text-primary);
+  background-color: var(--db-bg-primary);
+  border-bottom: 1px solid var(--db-border);
+  border-right: 1px solid var(--db-border);
+  line-height: 1.3;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: var(--db-transition);
+}
+
+.database-plugin__td:hover {
+  background-color: var(--db-bg-hover);
+}
+
+.database-plugin__table tr:nth-child(even) .database-plugin__td {
+  background-color: var(--db-bg-secondary);
+}
+
+.database-plugin__table tr:nth-child(even) .database-plugin__td:hover,
+.database-plugin__table tr:nth-child(odd) .database-plugin__td:hover {
+  background-color: var(--db-bg-hover);
+}
+
+/* === YAPI STİLİ — Sticky İlk Sütun === */
+.database-plugin__table .database-plugin__td:first-child,
+.database-plugin__table .database-plugin__th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 5;
+  background-color: var(--db-bg-secondary);
+  border-right: 2px solid var(--db-accent);
+  box-shadow: 2px 0 4px var(--db-shadow);
+}
+
+/* === SATIR SEÇİLİYKEN === */
+.database-plugin__row-selected,
+.database-plugin__row-selected .database-plugin__td {
+  background-color: var(--db-accent) !important;
+  color: var(--db-text-on-accent) !important;
+}
+
+/* === YAZI HIZALAMALARI === */
+.database-plugin__text-align-left {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.database-plugin__text-align-center {
+  text-align: center;
+  justify-content: center;
+}
+
+.database-plugin__text-align-right {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.database-plugin__align-middle {
+  align-items: center;
+}
+
+/* === GEÇİŞ & ANİMASYONLAR === */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+a.internal-link {
+  font-weight: 600;
+  text-decoration: none !important;
+    color: rgba(121, 216, 25, 0.901);
+  -webkit-background-clip: text;
+  transition: filter 0.2s ease-in-out;
+  position: relative;
+}
+
+a.internal-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 2px;
+  width: 100%;
+  background: transparent;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a.internal-link:hover::after {
+  transform: scaleX(0); /* Alt çizgi kapalı kalacak */
+}
+
+a.internal-link:hover {
+  filter: brightness(1.2); /* 🔆 Sadece hafif parlama */
+  /* letter-spacing kaldırıldı */
+  text-decoration: none !important;
+}

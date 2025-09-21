@@ -1,1 +1,8 @@
-{}
+{
+  "trashOption": "system",
+  "promptDelete": false,
+  "attachmentFolderPath": "Template/assets",
+  "autoConvertHtml": true,
+  "focusNewTab": true,
+  "spellcheck": false
+}

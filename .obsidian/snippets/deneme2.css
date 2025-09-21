@@ -1,0 +1,77 @@
+/* C# kodları için */
+/*Yazma modu */
+.cm-s-obsidian .HyperMD-codeblock[class*="csharp"] .cm-hmd-codeblock.cm-type {
+  color: #e0de71d1 !important;
+}
+
+/*Yazma modu */
+.cm-s-obsidian
+  .HyperMD-codeblock[class*="csharp"]
+  .cm-hmd-codeblock.cm-variable {
+  color: #53dfddd5 !important;
+}
+
+/*Yazma modunda keywordler */
+.cm-s-obsidian
+  .HyperMD-codeblock[class*="csharp"]
+  .cm-hmd-codeblock.cm-keyword {
+  color: #fa99cddb !important;
+}
+
+/* Okuma Modunda metodla r*/
+.markdown-preview-view .language-csharp .token.function,
+.markdown-preview-view .language-csharp .token.return-type.class-name,
+.markdown-preview-view .language-csharp .token.class-name {
+  color: #e0de71d1 !important;
+}
+
+/* Okuma modunda public gibi kewyordler*/
+.markdown-preview-view .language-csharp .token.keyword {
+  color: #fa99cddb !important;
+}
+
+/* Yorum renkendirme css'i c# */
+.cm-s-obsidian .HyperMD-codeblock[class*="csharp"] .cm-hmd-codeblock{
+  color:darkgray;
+}
+
+/* css için */
+
+.cm-s-obsidian .HyperMD-codeblock[class*="css"] .cm-property {
+  color: #53dfddd5 !important;
+}
+.cm-s-obsidian .HyperMD-codeblock[class*="css"] .cm-tag {
+  color: #dadadac4 !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock[class*="html"] .cm-attribute {
+  color: #53dfddd5 !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock[class*="css"] .cm-builtin {
+  color: #44cf6e !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock[class*="html"] .cm-property {
+  color: #53dfddd5 !important;
+}
+
+.markdown-preview-view .language-html .attr-value {
+  color: #44cf6e !important;
+}
+
+.markdown-preview-view .language-html .attr-name {
+  color: #53dfddd5 !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock[class*="js"] .cm-property {
+  color: #e0de71e1 !important;
+}
+
+.cm-s-obsidian .HyperMD-codeblock[class*="js"] .cm-variable-2 {
+  color: #53dfddd5 !important;
+}
+
+.markdown-preview-view .language-js .property-access {
+  color: #e0de71e1 !important;
+}

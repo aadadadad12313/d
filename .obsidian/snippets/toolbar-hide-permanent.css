@@ -1,0 +1,24 @@
+
+        /* Tüm toolbar UI'sini tamamen kaldır */
+        #editingToolbarModalBar,
+        .editingToolbarDefaultAesthetic,
+        .editing-toolbar,
+        .editing-toolbar-container {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            height: 0 !important;
+            overflow: hidden !important;
+        }
+        
+        /* Hover efektlerini tamamen devre dışı bırak */
+        .editing-toolbar:hover,
+        .editing-toolbar:focus,
+        .editing-toolbar:focus-within,
+        .editing-toolbar:active,
+        .workspace-leaf-content:hover .editing-toolbar,
+        .workspace-leaf-content:focus .editing-toolbar,
+        .view-header:hover + .view-content .editing-toolbar {
+            display: none !important;
+        }

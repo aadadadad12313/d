@@ -1,0 +1,42 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "todo": [
+        {
+          "changes": {
+            "icon": "lucide-book-up"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "208, 181, 48"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "bug": [
+        {
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

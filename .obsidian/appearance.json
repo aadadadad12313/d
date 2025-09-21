@@ -1,1 +1,10 @@
-{}
+{
+  "theme": "system",
+  "enabledCssSnippets": [
+    "Notlarım",
+    "deneme3",
+    "deneme2",
+    "deneme"
+  ],
+  "baseFontSizeAction": false
+}

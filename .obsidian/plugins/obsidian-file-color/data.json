@@ -1,0 +1,85 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "8LLTrWL0pgo54sGkU_yXW",
+      "name": "red",
+      "value": "#f31212"
+    },
+    {
+      "id": "FAxdpHLMEQl6aRAYmt9eb",
+      "name": "blue",
+      "value": "#371bc0"
+    },
+    {
+      "id": "Qnscx1o2yoKBfm_WVXwEv",
+      "name": "",
+      "value": "#9f6060"
+    },
+    {
+      "id": "iavxXYXLAogOuZGWm_Ya6",
+      "name": "s",
+      "value": "#1c926a"
+    },
+    {
+      "id": "ikYJgDC4AvACITMtbPkVN",
+      "name": "",
+      "value": "#6495ed"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Css Dersleri/Grid.md",
+      "color": "Qnscx1o2yoKBfm_WVXwEv"
+    },
+    {
+      "path": "Css Dersleri",
+      "color": "ikYJgDC4AvACITMtbPkVN"
+    },
+    {
+      "path": "backend",
+      "color": "8LLTrWL0pgo54sGkU_yXW"
+    },
+    {
+      "path": "backend/Oop/Sanal Yapılar.md",
+      "color": "Qnscx1o2yoKBfm_WVXwEv"
+    },
+    {
+      "path": "backend/Oop/Partial.md",
+      "color": "iavxXYXLAogOuZGWm_Ya6"
+    },
+    {
+      "path": "backend/Oop/Abstract Class.md",
+      "color": "iavxXYXLAogOuZGWm_Ya6"
+    },
+    {
+      "path": "backend/Oop/İnterface.md",
+      "color": "iavxXYXLAogOuZGWm_Ya6"
+    },
+    {
+      "path": "backend/Oop/Record.md",
+      "color": "ikYJgDC4AvACITMtbPkVN"
+    },
+    {
+      "path": "JavaScript",
+      "color": "ikYJgDC4AvACITMtbPkVN"
+    },
+    {
+      "path": "backend/NetCore",
+      "color": "ikYJgDC4AvACITMtbPkVN"
+    },
+    {
+      "path": "backend/NetCore/Action Türleri.md",
+      "color": "iavxXYXLAogOuZGWm_Ya6"
+    },
+    {
+      "path": "backend/NetCore/Partial ve ViewComponent.md",
+      "color": "ikYJgDC4AvACITMtbPkVN"
+    },
+    {
+      "path": "JavaScript/React",
+      "color": "ikYJgDC4AvACITMtbPkVN"
+    }
+  ]
+}

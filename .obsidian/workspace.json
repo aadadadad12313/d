@@ -1,41 +1,140 @@
 {
   "main": {
-    "id": "7849a41af85fbba4",
+    "id": "2d67d350ef793ece",
     "type": "split",
     "children": [
       {
-        "id": "3c9f02924dfbb452",
+        "id": "44aad1d35aa42b6c",
         "type": "tabs",
         "children": [
           {
-            "id": "bb49a2ae50875212",
+            "id": "97a2fd6d97a89aeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Başlıksız/Başlıksız 1.md",
+                "file": "backend/Oop/Polimorfizm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Başlıksız 1"
+              "title": "Polimorfizm"
+            }
+          },
+          {
+            "id": "f421001304cceca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Csharp/Type-TypeOf.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Type-TypeOf"
+            }
+          },
+          {
+            "id": "bcfa2f82d2c9c801",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/NetCore/Dependency Injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dependency Injection"
+            }
+          },
+          {
+            "id": "13eb999d8f8cf4ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Git/Branch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Branch"
+            }
+          },
+          {
+            "id": "97f80aca1143eb26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Oop/Propertyler - Field.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Propertyler - Field"
+            }
+          },
+          {
+            "id": "91217df42cf7c9da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Git/Klonlama.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Klonlama"
+            }
+          },
+          {
+            "id": "8d810f8a3960ba05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Oop/Kapsülleme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kapsülleme"
+            }
+          },
+          {
+            "id": "69c6622b39a77cbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Csharp/Type-TypeOf.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Type-TypeOf"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "24ab9051e7a37ddc",
+    "id": "2dffc7ac3024ff25",
     "type": "split",
     "children": [
       {
-        "id": "50f44c087d3ed1d9",
+        "id": "2c4e65ae5b1134b0",
         "type": "tabs",
         "children": [
           {
-            "id": "d8b9027570917100",
+            "id": "2454a7694d9e66b9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +147,7 @@
             }
           },
           {
-            "id": "22aefd1eaf8a075a",
+            "id": "ce009e26af417464",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +164,7 @@
             }
           },
           {
-            "id": "8b8a47fba8161f46",
+            "id": "5657f9658b1445af",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +180,19 @@
     "width": 300
   },
   "right": {
-    "id": "e743ff6358d0fcd6",
+    "id": "a28bbd8df29ca334",
     "type": "split",
     "children": [
       {
-        "id": "fc0cddbdfa185979",
+        "id": "30ab07229d456fce",
         "type": "tabs",
         "children": [
           {
-            "id": "441fc63fecd6d86d",
+            "id": "01d367f3648c41bb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Başlıksız/Başlıksız 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +202,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Başlıksız 1 için geri bağlantılar"
+              "title": "Geri Bağlantılar"
             }
           },
           {
-            "id": "ad04ad39fbdd2d8c",
+            "id": "73ee8a7e549d642c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Başlıksız/Başlıksız 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Başlıksız 1'dan giden bağlantılar"
+              "title": "Giden bağlantılar"
             }
           },
           {
-            "id": "8df5d0ed70d88143",
+            "id": "30913c55cea44dfc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,44 +234,99 @@
             }
           },
           {
-            "id": "8483693ea8614b3e",
+            "id": "ba19217dbb7f8dae",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Başlıksız/Başlıksız 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Başlıksız 1 ana hatları"
+              "title": "Anahat"
+            }
+          },
+          {
+            "id": "35fbffe1d439bc3e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Hızlı geçişi aç": false,
       "graph:Grafik görünümünü aç": false,
       "canvas:Yeni tuval oluşturun": false,
       "daily-notes:Bugünün Notunu Aç": false,
       "templates:Şablon ekle": false,
       "command-palette:Komut paletini aç": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "d8b9027570917100",
+  "active": "91217df42cf7c9da",
   "lastOpenFiles": [
-    "Başlıksız/Başlıksız.md",
-    "Başlıksız/Başlıksız 1.md",
-    "Başlıksız.md",
-    "Başlıksız"
+    "backend/Oop/Propertyler - Field.md",
+    "backend/Git/Başlıksız 1.md",
+    "backend/Git/Git Mantığı.md",
+    "backend/Git/Klonlama.md",
+    "backend/Git/Visual Studio repository oluşturma.md",
+    "backend/Git/Git Visual Code ve Visual Studio Panellerinin Farkı.md",
+    "backend/Oop/Kapsülleme.md",
+    "Notlar.md",
+    "backend/Git/Branch.md",
+    "backend/Csharp/Func.md",
+    "backend/Csharp/Type-TypeOf.md",
+    "backend/Csharp/Değer Türleri ve Referans Türleri.md",
+    "backend/Oop/Polimorfizm.md",
+    "backend/Oop/Static.md",
+    "backend/Oop/Static.md",
+    "backend/NetCore/Dependency Injection.md",
+    "backend/Git/Visual Studio üzerinden repository oluşturma (1).md",
+    "Projeler/Backend/SignalR/Mimari/desktop.ini",
+    "Projeler/Backend/SignalR/desktop.ini",
+    "backend/Orm/desktop.ini",
+    "backend/Sql/desktop.ini",
+    "Projeler/Backend/RestfulApi/desktop.ini",
+    "Projeler/Backend/DepencenyProjesi/desktop.ini",
+    "Projeler/Backend/desktop.ini",
+    "Projeler/desktop.ini",
+    "Sorular/js/desktop.ini",
+    "Sorular/Css/desktop.ini",
+    "backend/Oop/Generic Tipler.md",
+    "backend/Git/Git ve Github Geri Alma işlemleri.md",
+    "backend/Csharp/Object-Dynamic--Var.md",
+    "backend/Csharp/Using Bloğu.md",
+    "backend/Csharp/Null Olduğunda Kontroller.md",
+    "backend/Csharp/Metodlar.md",
+    "backend/Oop/Class.md",
+    "Projeler/Backend/RestfulApi/Context Sınıfı.md",
+    "backend/Csharp/Untitled database.md",
+    "Template/assets/Pasted image 20250912195728.png",
+    "Template/assets/Pasted image 20250912160015.png",
+    "Template/assets/Pasted image 20250906172747.png",
+    "Template/assets/Pasted image 20250902170119.png",
+    "Template/assets/Pasted image 20250902165338.png",
+    "Template/assets/Pasted image 20250902031650.png",
+    "Template/assets/Pasted image 20250902031442.png",
+    "Template/assets/Pasted image 20250829003955.png",
+    "Template/assets/Pasted image 20250829003933.png",
+    "Template/assets/Pasted image 20250819182056.png",
+    "Başlıksız.canvas"
   ]
 }
